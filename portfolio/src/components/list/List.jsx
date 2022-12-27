@@ -33,35 +33,152 @@ function List() {
   return (
     <div className='listContainer'>
         <ParticleBackground settings={settings} className='particle'/>
-        <div className='vrtLine'>
+        <div className='listItem'>
+          <div className='firstVrtLine'></div>
+          {/* <Cube className='firstCube'/> */}
+          <figure className='firstCube'>
+            <div class="face front">
+              <div></div>
+            </div>
 
+            <div class="face top">
+              <div></div>
+            </div>
+            
+            <div class="face right">
+              <div></div>
+            </div>
+
+            <div class="face left">
+              <div></div>
+            </div>
+
+            <div class="face bottom">
+              <div></div>
+            </div>
+
+            <div class="face back">
+              <div></div>
+            </div>
+          </figure>
         </div>
-        {/* <Cube className='firstCube'/> */}
-        <figure className='firstCube'>
-          <div class="face front">
-            <div></div>
-          </div>
+        <div className='listItem'>
+          <div className='scdVrtLine'></div>
+          {/* <Cube className='firstCube'/> */}
+          <figure className='scdCube'>
+            <div class="face front">
+              <div></div>
+            </div>
 
-          <div class="face top">
-            <div></div>
-          </div>
-          
-          <div class="face right">
-            <div></div>
-          </div>
+            <div class="face top">
+              <div></div>
+            </div>
+            
+            <div class="face right">
+              <div></div>
+            </div>
 
-          <div class="face left">
-            <div></div>
-          </div>
+            <div class="face left">
+              <div></div>
+            </div>
 
-          <div class="face bottom">
-            <div></div>
-          </div>
+            <div class="face bottom">
+              <div></div>
+            </div>
 
-          <div class="face back">
-            <div></div>
-          </div>
-        </figure>
+            <div class="face back">
+              <div></div>
+            </div>
+          </figure>
+        </div>
+        <div className='listItem'>
+          <div className='trdVrtLine'></div>
+          {/* <Cube className='firstCube'/> */}
+          <figure className='trdCube'>
+            <div class="face front">
+              <div></div>
+            </div>
+
+            <div class="face top">
+              <div></div>
+            </div>
+            
+            <div class="face right">
+              <div></div>
+            </div>
+
+            <div class="face left">
+              <div></div>
+            </div>
+
+            <div class="face bottom">
+              <div></div>
+            </div>
+
+            <div class="face back">
+              <div></div>
+            </div>
+          </figure>
+        </div>
+        <div className='listItem'>
+          <div className='frthVrtLine'></div>
+          {/* <Cube className='firstCube'/> */}
+          <figure className='frthCube'>
+            <div class="face front">
+              <div></div>
+            </div>
+
+            <div class="face top">
+              <div></div>
+            </div>
+            
+            <div class="face right">
+              <div></div>
+            </div>
+
+            <div class="face left">
+              <div></div>
+            </div>
+
+            <div class="face bottom">
+              <div></div>
+            </div>
+
+            <div class="face back">
+              <div></div>
+            </div>
+          </figure>
+        </div>
+        <div className='listItem'>
+          <div className='fithVrtLine'></div>
+          {/* <Cube className='firstCube'/> */}
+          <figure className='fithCube'>
+            <div class="face front">
+              <div></div>
+            </div>
+
+            <div class="face top">
+              <div></div>
+            </div>
+            
+            <div class="face right">
+              <div></div>
+            </div>
+
+            <div class="face left">
+              <div></div>
+            </div>
+
+            <div class="face bottom">
+              <div></div>
+            </div>
+
+            <div class="face back">
+              <div></div>
+            </div>
+          </figure>
+        </div>
+        
     </div>
   )
 }
