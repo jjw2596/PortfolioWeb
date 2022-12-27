@@ -45,7 +45,7 @@ function Intro() {
           '',
           1500,
           '배우는 걸 두려워하지 않고\n멈추지 않는 노력으로 끝까지 해내는\nFront-end Developer\n전종원 입니다.',
-          4000,
+          3000,
           // '멈추지 않는 노력으로 끝까지 해내는',
           // 1500,
           // 'Front-end Developer',
