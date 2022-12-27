@@ -96,8 +96,8 @@
 .cube {
     animation: rotation 10s linear infinite;
     position: absolute;
-    top: -20%;
-    left: -200%;
+    top: -3vh;
+    left: -6vw;
 }
 @keyframes rotation {
     from { transform: rotateY(0) rotateX(0); }

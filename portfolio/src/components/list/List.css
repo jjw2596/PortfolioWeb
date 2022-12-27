@@ -14,9 +14,9 @@ figure {
 }
 .firstVrtLine {
     position: absolute;
-    left: 20%;
+    left: 20vw;
     width: 0;
-    height: 23%;
+    height: 23vh;
     border: 2px dashed #C5C3C3;
 }
 .firstCube {
@@ -25,8 +25,8 @@ figure {
     left: 50%;
     margin-top: -20px;
     margin-left: -105px; */
-    top: 22%;
-    left: 16.5%;
+    top: 22vh;
+    left: 16.5vw;
     animation: firstRotation 10s linear infinite;
 }
 @keyframes firstRotation {
@@ -36,9 +36,9 @@ figure {
 
 .scdVrtLine {
     position: absolute;
-    left: 35%;
+    left: 35vw;
     width: 0;
-    height: 28%;
+    height: 28vh;
     border: 2px dashed #C5C3C3;
 }
 .scdCube {
@@ -47,8 +47,8 @@ figure {
     left: 50%;
     margin-top: -20px;
     margin-left: -105px; */
-    top: 27%;
-    left: 31%;
+    top: 27vh;
+    left: 31vw;
     animation: scdRotation 10s linear infinite;
 }
 @keyframes scdRotation {
@@ -58,9 +58,9 @@ figure {
 
 .trdVrtLine {
     position: absolute;
-    left: 50%;
+    left: 50vw;
     width: 0;
-    height: 20%;
+    height: 20vh;
     border: 2px dashed #C5C3C3;
 }
 .trdCube {
@@ -69,8 +69,8 @@ figure {
     left: 50%;
     margin-top: -20px;
     margin-left: -105px; */
-    top: 19%;
-    left: 46.5%;
+    top: 19vh;
+    left: 46.5vw;
     animation: trdRotation 10s linear infinite;
 }
 @keyframes trdRotation {
@@ -80,9 +80,9 @@ figure {
 
 .frthVrtLine {
     position: absolute;
-    left: 65%;
+    left: 65vw;
     width: 0;
-    height: 35%;
+    height: 35vh;
     border: 2px dashed #C5C3C3;
 }
 .frthCube {
@@ -91,8 +91,8 @@ figure {
     left: 50%;
     margin-top: -20px;
     margin-left: -105px; */
-    top: 34%;
-    left: 61.5%;
+    top: 34vh;
+    left: 61.5vw;
     animation: frthRotation 10s linear infinite;
 }
 @keyframes frthRotation {
@@ -102,9 +102,9 @@ figure {
 
 .fithVrtLine {
     position: absolute;
-    left: 83%;
+    left: 83vw;
     width: 0;
-    height: 20%;
+    height: 20vh;
     border: 2px dashed #C5C3C3;
 }
 .fithCube {
@@ -113,8 +113,8 @@ figure {
     left: 50%;
     margin-top: -20px;
     margin-left: -105px; */
-    top: 19%;
-    left: 79.5%;
+    top: 19vh;
+    left: 79.5vw;
     animation: fithRotation 10s linear infinite;
 }
 @keyframes fithRotation {
