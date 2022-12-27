@@ -12,11 +12,12 @@ figure {
     /* animation: rotation 10s linear infinite; */
     transform-style: preserve-3d;
 }
+
 .firstVrtLine {
     position: absolute;
-    left: 20vw;
+    left: 7vmin;
     width: 0;
-    height: 23vh;
+    height: 23vmin;
     border: 2px dashed #C5C3C3;
 }
 .firstCube {
@@ -25,9 +26,13 @@ figure {
     left: 50%;
     margin-top: -20px;
     margin-left: -105px; */
-    top: 22vh;
-    left: 16.5vw;
+    top: 22vmin;
+    /* left: 38vmin; */
     animation: firstRotation 10s linear infinite;
+}
+.listItem1{
+    position: absolute;
+    left: 40vmin;
 }
 @keyframes firstRotation {
     from { transform: rotateY(0) rotateX(10deg); }
@@ -36,7 +41,7 @@ figure {
 
 .scdVrtLine {
     position: absolute;
-    left: 35vw;
+    left: 7vmin;
     width: 0;
     height: 28vh;
     border: 2px dashed #C5C3C3;
@@ -48,8 +53,12 @@ figure {
     margin-top: -20px;
     margin-left: -105px; */
     top: 27vh;
-    left: 31vw;
+    /* left: 31vw; */
     animation: scdRotation 10s linear infinite;
+}
+.listItem2{
+    position: absolute;
+    left: 70vmin;
 }
 @keyframes scdRotation {
     from { transform: rotateY(0) rotateX(20deg); }
@@ -58,7 +67,7 @@ figure {
 
 .trdVrtLine {
     position: absolute;
-    left: 50vw;
+    left: 7vmin;
     width: 0;
     height: 20vh;
     border: 2px dashed #C5C3C3;
@@ -70,8 +79,12 @@ figure {
     margin-top: -20px;
     margin-left: -105px; */
     top: 19vh;
-    left: 46.5vw;
+    /* left: 46.5vw; */
     animation: trdRotation 10s linear infinite;
+}
+.listItem3{
+    position: absolute;
+    left: 100vmin;
 }
 @keyframes trdRotation {
     from { transform: rotateY(0) rotateX(10deg); }
@@ -80,7 +93,7 @@ figure {
 
 .frthVrtLine {
     position: absolute;
-    left: 65vw;
+    left: 7vmin;
     width: 0;
     height: 35vh;
     border: 2px dashed #C5C3C3;
@@ -92,8 +105,12 @@ figure {
     margin-top: -20px;
     margin-left: -105px; */
     top: 34vh;
-    left: 61.5vw;
+    /* left: 61.5vw; */
     animation: frthRotation 10s linear infinite;
+}
+.listItem4{
+    position: absolute;
+    left: 130vmin;
 }
 @keyframes frthRotation {
     from { transform: rotateY(0) rotateX(25deg); }
@@ -102,9 +119,9 @@ figure {
 
 .fithVrtLine {
     position: absolute;
-    left: 83vw;
+    left: 7vmin;
     width: 0;
-    height: 20vh;
+    height: 18vh;
     border: 2px dashed #C5C3C3;
 }
 .fithCube {
@@ -113,9 +130,13 @@ figure {
     left: 50%;
     margin-top: -20px;
     margin-left: -105px; */
-    top: 19vh;
-    left: 79.5vw;
+    top: 17vh;
+    /* left: 79.5vw; */
     animation: fithRotation 10s linear infinite;
+}
+.listItem5{
+    position: absolute;
+    left: 160vmin;
 }
 @keyframes fithRotation {
     from { transform: rotateY(0) rotateX(10deg); }

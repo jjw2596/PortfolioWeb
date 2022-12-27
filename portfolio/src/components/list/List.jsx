@@ -33,7 +33,7 @@ function List() {
   return (
     <div className='listContainer'>
         <ParticleBackground settings={settings} className='particle'/>
-        <div className='listItem'>
+        <div className='listItem1'>
           <div className='firstVrtLine'></div>
           {/* <Cube className='firstCube'/> */}
           <figure className='firstCube'>
@@ -62,7 +62,7 @@ function List() {
             </div>
           </figure>
         </div>
-        <div className='listItem'>
+        <div className='listItem2'>
           <div className='scdVrtLine'></div>
           {/* <Cube className='firstCube'/> */}
           <figure className='scdCube'>
@@ -91,7 +91,7 @@ function List() {
             </div>
           </figure>
         </div>
-        <div className='listItem'>
+        <div className='listItem3'>
           <div className='trdVrtLine'></div>
           {/* <Cube className='firstCube'/> */}
           <figure className='trdCube'>
@@ -120,7 +120,7 @@ function List() {
             </div>
           </figure>
         </div>
-        <div className='listItem'>
+        <div className='listItem4'>
           <div className='frthVrtLine'></div>
           {/* <Cube className='firstCube'/> */}
           <figure className='frthCube'>
@@ -149,7 +149,7 @@ function List() {
             </div>
           </figure>
         </div>
-        <div className='listItem'>
+        <div className='listItem5'>
           <div className='fithVrtLine'></div>
           {/* <Cube className='firstCube'/> */}
           <figure className='fithCube'>

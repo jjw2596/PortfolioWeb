@@ -16,8 +16,8 @@
 
 .overviewTxt {
     position: absolute;
-    top: 25%;
-    left: 3%;
+    top: 25vmin;
+    left: 8vmin;
     line-height: 3.8em;
 }
 
@@ -50,3 +50,7 @@
     right: 10%;
 }
 
+.nextBtn{
+    color: #fff;
+    text-decoration: none;
+}

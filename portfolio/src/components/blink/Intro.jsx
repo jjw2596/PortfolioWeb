@@ -59,37 +59,37 @@ function Intro() {
           repeat={Infinity} // Repeat this Animation Sequence infinitely
           className='Typing'
         />
-        
-        <Link to="Overview" className='nextBtn' onMouseOver={() => setIsHovering(1)} onMouseOut={() => setIsHovering(0)}>
-          <Cube className='cube'/>
-          {/* <figure className='cube'>
-          <div class="face front">
-            <div></div>
-          </div>
+        <div className='nextBtn'>
+          <Link to="Overview"  onMouseOver={() => setIsHovering(1)} onMouseOut={() => setIsHovering(0)}>
+            <Cube className='cube'/>
+              {/* <figure className='cube'>
+                <div class="face front">
+                  <div></div>
+                </div>
 
-          <div class="face top">
-            <div></div>
-          </div>
-          
-          <div class="face right">
-            <div></div>
-          </div>
+                <div class="face top">
+                  <div></div>
+                </div>
+                
+                <div class="face right">
+                  <div></div>
+                </div>
 
-          <div class="face left">
-            <div></div>
-          </div>
+                <div class="face left">
+                  <div></div>
+                </div>
 
-          <div class="face bottom">
-            <div></div>
-          </div>
+                <div class="face bottom">
+                  <div></div>
+                </div>
 
-          <div class="face back">
-            <div></div>
-          </div>
-        </figure> */}
-          {isHovering ? (<Jump>Click</Jump>) : ("Click")}
-           
-        </Link>
+                <div class="face back">
+                  <div></div>
+                </div>
+              </figure> */}
+            {isHovering ? (<Jump>Click</Jump>) : ("Click")}
+          </Link>
+        </div>
     </div>
   )
 }
