@@ -4,6 +4,7 @@ import ParticleBackground from 'react-particle-backgrounds';
 import {TypeAnimation} from 'react-type-animation';
 import { Link } from 'react-router-dom';
 import Jump from 'react-reveal/Jump';
+import Cube from '../cube/Cube';
 
 
 function Intro() {
@@ -15,7 +16,7 @@ function Intro() {
           useBouncyWalls: false
         },
         particle: {
-          particleCount: 50,
+          particleCount: 55,
           color: '#fff',
           minSize: 2,
           maxSize: 10
@@ -29,14 +30,14 @@ function Intro() {
         opacity: {
           minOpacity: 0,
           maxOpacity: 0.8,
-          opacityTransitionTime: 30000
+          opacityTransitionTime: 8000
         }
       }
     
     const [isHovering, setIsHovering] = useState(0);
     
   return (
-    <div className='container'>
+    <div className='introContainer'>
         <ParticleBackground settings={settings} className='particle'/>
         <TypeAnimation
           // Same String at the start will only be typed once, initially
@@ -52,7 +53,7 @@ function Intro() {
           // '전종원 입니다.',
           // 2000,
           ]}
-          speed={15} // Custom Speed from 1-99 - Default Speed: 40
+          speed={5} // Custom Speed from 1-99 - Default Speed: 40
           style={{ fontSize: '4em' }}
           wrapper="span" // Animation will be rendered as a <span>
           repeat={Infinity} // Repeat this Animation Sequence infinitely
@@ -60,7 +61,8 @@ function Intro() {
         />
         
         <Link to="Overview" className='nextBtn' onMouseOver={() => setIsHovering(1)} onMouseOut={() => setIsHovering(0)}>
-          <figure>
+          <Cube className='cube'/>
+          {/* <figure className='cube'>
           <div class="face front">
             <div></div>
           </div>
@@ -84,7 +86,7 @@ function Intro() {
           <div class="face back">
             <div></div>
           </div>
-        </figure>
+        </figure> */}
           {isHovering ? (<Jump>Click</Jump>) : ("Click")}
            
         </Link>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
 /* .App {
   text-align: center;
@@ -9,22 +10,14 @@
   height: 100vh;
 }
 
-.First {
-  background: linear-gradient(180deg, #262829 66.67%, #252C33 100%);
-}
-.Second {
-  background: linear-gradient(180deg, #262829 66.67%, #252C33 100%);
-}
-.Third {
-  background: linear-gradient(180deg, #262829 0%, #1F2327 38.02%, #2A343E 75.52%);
-}
-
 .title{
   position: absolute;
+  top: 3%;
   left: 15px;
   z-index: 1;
   color: #fff;
   font-size: 2.5em;
-  font-family: 'Caramel', cursive;
+  /* font-family: 'Caramel', cursive; */
+  font-family: 'Allura', cursive;
 }
 

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
 
-.container {
+.introContainer {
     width: 100%;
     height: 100vh;
     background: linear-gradient(180deg, #262829 66.67%, #252C33 100%);
@@ -20,7 +21,7 @@
     z-index: 1;
     color: #fff;
     position: fixed;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Jua';
@@ -36,9 +37,10 @@
     transform: translate(-50%, -50%);
     text-decoration: none;
     font-size: 1.5em;
+    font-family: 'Noto Serif KR', serif;
 }
   
-figure {
+/* .cube {
     width: 60px;
     height: 60px;
     animation: rotation 10s linear infinite;
@@ -89,8 +91,11 @@ figure {
 
 .bottom {
     transform: rotateX(-90deg) translate3d(0,0,30px);
-}
+} */
 
+.cube {
+    animation: rotation 10s linear infinite;
+}
 @keyframes rotation {
     from { transform: rotateY(0) rotateX(0); }
     to   { transform: rotateY(-360deg) rotateX(360deg); }

@@ -1,0 +1,37 @@
+.listContainer {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #262829 0%, #1F2327 38.02%, #2A343E 75.52%, #2F4050 100%);
+}
+
+.vrtLine {
+    position: absolute;
+    left: 20%;
+    width: 0;
+    height: 23%;
+    border: 2px dashed #C5C3C3;
+}
+
+.firstCube {
+    top: 27%;
+    left: 25%;
+}
+
+figure {
+    width: 60px;
+    height: 60px;
+    /* animation: rotation 10s linear infinite; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -105px;
+    transform-style: preserve-3d;
+}
+.firstCube {
+    animation: firstRotation 10s linear infinite;
+}
+@keyframes firstRotation {
+    from { transform: rotateY(0) rotateX(10deg); }
+    to   { transform: rotateY(-360deg) rotateX(10deg); }
+}
