@@ -71,7 +71,7 @@ figure {
     height: 45vmin;
     display: flex;
     justify-content: center;
-    left: 70vmin;
+    left: 75vmin;
 }
 @keyframes scdRotation {
     from { transform: rotateY(0) rotateX(20deg); }
@@ -101,7 +101,7 @@ figure {
     height: 45vmin;
     display: flex;
     justify-content: center;
-    left: 100vmin;
+    left: 105vmin;
 }
 @keyframes trdRotation {
     from { transform: rotateY(0) rotateX(10deg); }
@@ -131,7 +131,7 @@ figure {
     height: 45vmin;
     display: flex;
     justify-content: center;
-    left: 130vmin;
+    left: 135vmin;
 }
 @keyframes frthRotation {
     from { transform: rotateY(0) rotateX(25deg); }
@@ -161,7 +161,7 @@ figure {
     height: 45vmin;
     display: flex;
     justify-content: center;
-    left: 160vmin;
+    left: 165vmin;
 }
 @keyframes fithRotation {
     from { transform: rotateY(0) rotateX(10deg); }
