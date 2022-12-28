@@ -37,11 +37,11 @@ figure {
 }
 .listItem1{
     position: absolute;
-    left: 40vmin;
     width: 15vmin;
     height: 45vmin;
     display: flex;
     justify-content: center;
+    left: 35vmin;
 }
 @keyframes firstRotation {
     from { transform: rotateY(0) rotateX(10deg); }
@@ -71,7 +71,7 @@ figure {
     height: 45vmin;
     display: flex;
     justify-content: center;
-    left: 80vmin;
+    left: 70vmin;
 }
 @keyframes scdRotation {
     from { transform: rotateY(0) rotateX(20deg); }
@@ -101,7 +101,7 @@ figure {
     height: 45vmin;
     display: flex;
     justify-content: center;
-    left: 110vmin;
+    left: 105vmin;
 }
 @keyframes trdRotation {
     from { transform: rotateY(0) rotateX(10deg); }
@@ -161,7 +161,7 @@ figure {
     height: 45vmin;
     display: flex;
     justify-content: center;
-    left: 170vmin;
+    left: 175vmin;
 }
 @keyframes fithRotation {
     from { transform: rotateY(0) rotateX(10deg); }
