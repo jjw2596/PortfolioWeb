@@ -38,7 +38,7 @@ figure {
 .listItem1{
     position: absolute;
     width: 15vmin;
-    height: 45vmin;
+    height: 35vmin;
     display: flex;
     justify-content: center;
     left: 35vmin;
@@ -68,7 +68,7 @@ figure {
 .listItem2{
     position: absolute;
     width: 15vmin;
-    height: 45vmin;
+    height: 40vmin;
     display: flex;
     justify-content: center;
     left: 70vmin;
@@ -98,7 +98,7 @@ figure {
 .listItem3{
     position: absolute;
     width: 15vmin;
-    height: 45vmin;
+    height: 32vmin;
     display: flex;
     justify-content: center;
     left: 105vmin;
@@ -128,7 +128,7 @@ figure {
 .listItem4 {
     position: absolute;
     width: 15vmin;
-    height: 45vmin;
+    height: 48vmin;
     display: flex;
     justify-content: center;
     left: 140vmin;
@@ -158,7 +158,7 @@ figure {
 .listItem5{
     position: absolute;
     width: 15vmin;
-    height: 45vmin;
+    height: 30vmin;
     display: flex;
     justify-content: center;
     left: 175vmin;
@@ -166,4 +166,10 @@ figure {
 @keyframes fithRotation {
     from { transform: rotateY(0) rotateX(10deg); }
     to   { transform: rotateY(-360deg) rotateX(10deg); }
+}
+
+.projectName {
+    color: #fff;
+    position: inherit;
+    bottom: 0;
 }

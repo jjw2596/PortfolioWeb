@@ -63,6 +63,7 @@ function List() {
               </div>
             </figure>
           </div>
+          <div className='projectName'>Project1</div>
         </div>
         <div className='listItem2'>
           <div className='vrtLine2'></div>
@@ -94,6 +95,7 @@ function List() {
               </div>
             </figure>
           </div>
+          <div className='projectName'>Project2</div>
         </div>
         <div className='listItem3'>
           <div className='vrtLine3'></div>
@@ -125,6 +127,7 @@ function List() {
               </div>
             </figure>
           </div>
+          <div className='projectName'>Project3</div>
         </div>
         <div className='listItem4'>
           <div className='vrtLine4'></div>
@@ -156,6 +159,7 @@ function List() {
               </div>
             </figure>
           </div>
+          <div className='projectName'>Project4</div>
         </div>
         <div className='listItem5'>
           <div className='vrtLine5'></div>
@@ -187,6 +191,7 @@ function List() {
               </div>
             </figure>
           </div>
+          <div className='projectName'>Project5</div>
         </div>
         
     </div>
