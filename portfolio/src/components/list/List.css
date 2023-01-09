@@ -5,8 +5,8 @@
 }
 
 figure {
-    width: 60px;
-    height: 60px;
+    width: 3.1vw;
+    height: 6.4vh;
     /* animation: rotation 10s linear infinite; */
     transform-style: preserve-3d;
 }

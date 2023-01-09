@@ -1,6 +1,6 @@
 .cube {
-    width: 60px;
-    height: 60px;
+    width: 3.1vw;
+    height: 6.4vh;
     /* animation: rotation 10s linear infinite; */
     /* position: absolute;
     top: 50%;
@@ -20,8 +20,8 @@
 .face div {
     border: 2px solid #fff;
     box-shadow: 0px 0px 10px #fff;
-    width: 60px;
-    height: 60px;
+    width: 3.1vw;
+    height: 6.4vh;
     display: inline-block;
     box-sizing: border-box;
     vertical-align: top;
