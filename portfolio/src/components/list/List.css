@@ -38,7 +38,7 @@ figure {
 .listItem1{
     position: absolute;
     width: 15vmin;
-    height: 35vh;
+    height: 37vmin;
     display: flex;
     justify-content: center;
     left: 35vmin;
@@ -68,7 +68,7 @@ figure {
 .listItem2{
     position: absolute;
     width: 15vmin;
-    height: 40vh;
+    height: 42vmin;
     display: flex;
     justify-content: center;
     left: 70vmin;
@@ -98,7 +98,7 @@ figure {
 .listItem3{
     position: absolute;
     width: 15vmin;
-    height: 32vh;
+    height: 34vmin;
     display: flex;
     justify-content: center;
     left: 105vmin;
@@ -128,7 +128,7 @@ figure {
 .listItem4 {
     position: absolute;
     width: 15vmin;
-    height: 48vh;
+    height: 50vmin;
     display: flex;
     justify-content: center;
     left: 140vmin;
@@ -158,7 +158,7 @@ figure {
 .listItem5{
     position: absolute;
     width: 15vmin;
-    height: 30vh;
+    height: 32vmin;
     display: flex;
     justify-content: center;
     left: 175vmin;
@@ -169,6 +169,7 @@ figure {
 }
 
 .projectName {
+    font-size: 1.1em;
     color: #fff;
     position: inherit;
     bottom: 0;
